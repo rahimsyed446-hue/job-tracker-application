@@ -1,0 +1,13 @@
+
+CREATE TABLE IF NOT EXISTS applications (
+    id SERIAL PRIMARY KEY,
+    company VARCHAR(150) NOT NULL,
+    position VARCHAR(150) NOT NULL,
+    status VARCHAR(50) NOT NULL DEFAULT 'Applied',
+    location VARCHAR(150) DEFAULT '',
+    job_url TEXT DEFAULT '',
+    notes TEXT DEFAULT '',
+    applied_date DATE DEFAULT CURRENT_DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
