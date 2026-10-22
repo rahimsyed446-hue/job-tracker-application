@@ -3,6 +3,10 @@
 
 A full-stack web application to organize job applications, track application statuses, and manage your job search in one place.
 
+## Application Preview
+
+![JobTrack dashboard](screenshots/jobtrack-dashboard.png)
+
 ## Features
 
 - Add, view, edit, and delete job applications
